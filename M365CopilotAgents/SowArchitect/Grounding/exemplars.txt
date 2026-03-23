@@ -1,0 +1,81 @@
+# Obfuscated Exemplars (with Rationale)
+
+## Introduction / Project Scope
+
+This document outlines the scope and approach for a defined professional services engagement intended to support agreed objectives within a bounded delivery period. The focus of this engagement is to establish clarity, reduce delivery risk, and provide actionable outcomes aligned to agreed priorities.
+<!-- RATIONALE: Opens with neutral framing, defines purpose and value without committing to solutions or technologies. Uses bounded language to control scope. -->
+
+The services described herein are structured to deliver value incrementally while maintaining flexibility to adapt to evolving requirements, subject to governance and change control.
+<!-- RATIONALE: Introduces flexibility while explicitly anchoring it to governance, preventing implied scope expansion. -->
+
+## Objectives
+
+The objectives of this engagement are to:
+
+- Establish a clear and shared understanding of the current state and desired outcomes
+- Define a practical and achievable target state aligned to recognised best practices
+- Provide decision‑ready artefacts that enable informed prioritisation and next steps
+- Reduce ambiguity around scope, responsibilities, and delivery assumptions
+<!-- RATIONALE: Outcome‑focused objectives avoid prescribing implementation and emphasise decision support. -->
+
+Objectives are intentionally framed to avoid mandating specific implementation mechanisms unless explicitly required.
+<!-- RATIONALE: Explicitly limits implied delivery responsibility. -->
+
+## High‑Level Solution Overview
+
+### Current State
+
+The current environment reflects an accumulation of historical decisions, operational constraints, and evolving requirements. Existing capabilities provide a functional baseline; however, limitations exist in consistency, scalability, and standardisation.
+<!-- RATIONALE: Descriptive, non‑judgemental assessment that signals issues without assigning blame. -->
+
+Documentation, processes, and controls may vary in maturity, and dependencies across systems and teams should be assumed.
+<!-- RATIONALE: Introduces uncertainty to justify discovery and avoid false completeness. -->
+
+### Target / Future State
+
+The target state is defined as a logical evolution from the current environment, informed by industry standards and proven delivery patterns.
+<!-- RATIONALE: Positions future state as directionally sound, not a fixed design. -->
+
+The final form of the target state remains subject to validation, prioritisation, and stakeholder decision‑making throughout the engagement.
+<!-- RATIONALE: Defers commitment and reinforces shared ownership. -->
+
+## Delivery Approach
+
+Delivery will be structured into discrete phases, each with a clear purpose and defined outputs.
+<!-- RATIONALE: Signals control and professionalism without procedural detail. -->
+
+Each phase includes review and approval points and produces tangible artefacts suitable for downstream use.
+<!-- RATIONALE: Emphasises governance and artefact‑driven value. -->
+
+## Scope of Work
+
+The scope of work includes a defined set of professional services activities necessary to achieve the stated objectives.
+<!-- RATIONALE: Ties scope explicitly to objectives to avoid open‑ended interpretation. -->
+
+Items not explicitly listed should be considered out of scope unless formally agreed.
+<!-- RATIONALE: Strong defensive scoping statement. -->
+
+## Timeline / Duration
+
+The engagement will be delivered over an indicative timeframe, subject to timely input, access, and decisions from relevant stakeholders.
+<!-- RATIONALE: Makes timeline conditional and dependency‑aware. -->
+
+## Assumptions
+
+This engagement assumes availability of required information, access, and timely decisions.
+<!-- RATIONALE: Shifts risk of delay or rework to unmet assumptions. -->
+
+## Exclusions
+
+Unless explicitly stated otherwise, operational support, detailed implementation, and commercial negotiations are excluded.
+<!-- RATIONALE: Prevents implied obligations beyond intent. -->
+
+## Dependencies
+
+Successful delivery depends on factors outside the service provider’s direct control, including stakeholder availability and information quality.
+<!-- RATIONALE: Explicit dependency framing protects delivery outcomes. -->
+
+## Milestones and Deliverables
+
+Milestones represent logical completion points associated with reviewable deliverables that provide standalone value.
+<!-- RATIONALE: Reinforces acceptance criteria and incremental value. -->

@@ -1,0 +1,34 @@
+# Professional Statement of Work – Writing Rules
+
+## Tone and Voice
+- Professional, formal, consultative; customer‑facing and procurement‑safe
+- Outcome‑focused and pragmatic; avoid sales or marketing language
+- Collaborative but bounded; explicitly manage scope and expectations
+
+## Level of Detail
+- High‑level by default; detailed only where scope, responsibility, or risk requires
+- Avoid implementation, configuration, or code‑level detail unless instructed
+- Use correct technical terminology without vendor bias
+
+## Structure (Canonical)
+1. Introduction / Project Scope
+2. Objectives
+3. High‑Level Solution Overview (Current State, Target State)
+4. Delivery Approach
+5. Scope of Work
+6. Timeline / Duration
+7. Project Management and Governance
+8. Assumptions
+9. Exclusions
+10. Dependencies
+11. Milestones and Deliverables
+
+## Scoping Discipline
+- Clearly distinguish: in‑scope vs out‑of‑scope; commitments vs indicative statements
+- Use assumptions, exclusions, and dependencies defensively but professionally
+- Treat timelines as indicative unless explicitly committed
+
+## Language Conventions
+- Use "will" for commitments; "may", "typically", "subject to" for non‑guaranteed outcomes
+- Avoid absolute guarantees
+- State when content is indicative, non‑binding, or not an implementation plan
