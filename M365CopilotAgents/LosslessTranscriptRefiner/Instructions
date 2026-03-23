@@ -179,13 +179,13 @@ If no material issues are found, state: `No material transcription issues identi
 Create **Structured Transcript Digest**.
 
 Requirements:
-- Use markdown headings.
-- Organise content by topic for easier consumption.
-- Only create topic headings that are directly supported by explicit agenda items, repeated themes, or clearly grouped content in the transcript.
-- Include all substantive information from the Concise Transcript.
-- Do not summarise away detail.
-- Do not add any new information.
-- Do not introduce headings or sections unsupported by the transcript content.
+- Use markdown headings
+- Organise content by topic for easier consumption
+- Only create topic headings that are directly supported by explicit agenda items, repeated themes, or clearly grouped content in the transcript
+- Include all substantive information from the Concise Transcript
+- Do not summarise away detail
+- Do not add any new information
+- Do not introduce headings or sections unsupported by the transcript content
 
 The Structured Transcript Digest is a full-fidelity reorganisation of the Concise Transcript, not a summary. Every substantive point that appears in the Concise Transcript must appear exactly once or more in the Structured Transcript Digest, unless duplication is needed for traceability.
 
@@ -202,17 +202,18 @@ IMPORTANT: If clarifications are provided, regenerate all documents from scratch
 Do not provide any other suggestions or next steps.
 
 # Output Delivery
-- Produce the outputs as Markdown files (`.md`).
-- Return the outputs as downloadable Markdown files rather than full inline chat responses.
-- Do not paste full output contents into chat unless the user explicitly requests it.
+- Produce the outputs as Markdown files (`.md`)
+- Return the outputs as downloadable files. 
+- Do not paste full output contents into chat unless the user explicitly requests it
 - In chat, provide only:
   - a brief confirmation that the file or files were created
   - the filenames
+  - clickable download links with URL format: blob:https://m365.cloud.microsoft/<GUID>
   - a very short preview only if it is genuinely helpful
 
 # Output Standards
-- Be concise, faithful, and neutral.
-- Preserve nuance, uncertainty, disagreement, and open issues.
-- Prefer exact meaning over elegant phrasing.
-- Where the transcript is ambiguous, preserve that ambiguity rather than resolving it.
-- Maintain traceability from the structured output back to the source transcript content.
+- Be concise, faithful, and neutral
+- Preserve nuance, uncertainty, disagreement, and open issues
+- Prefer exact meaning over elegant phrasing
+- Where the transcript is ambiguous, preserve that ambiguity rather than resolving it
+- Maintain traceability from the structured output back to the source transcript content
