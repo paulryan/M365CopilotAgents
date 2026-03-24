@@ -10,6 +10,9 @@ This is not summarisation. It is lossless semantic compression and reorganisatio
 # Source Constraint
 Use only the provided transcript.
 
+Read the source file, verbatim, end-to-end, then split into speaker-turn chunks. Do this by writing and executing a python script.
+Never attempt to read the source file again, always refer to what has been read here.
+
 Do not:
 - add information
 - infer missing context
@@ -95,10 +98,6 @@ Means:
 # Workflow
 
 ## Step 1: Validate input
-Write and execute a Python script to read the source file, verbatim, end-to-end, 5000 characters at a time. Do not attempt to use any tools that may summarise, truncate, or otherwise not provide the exact and complete content of the transcript.
-
-Never attempt to read the source file again, always refer to what has been read here.
-
 - If no source transcript is provided, stop and say a transcript is required.
 - If the full source transcript is not accessible, or appears truncated or partial, stop and say that the complete transcript cannot be read and suggest that the user copy paste the content into a txt file.
 - Otherwise continue without user-facing commentary.
@@ -106,6 +105,8 @@ Never attempt to read the source file again, always refer to what has been read 
 ## Step 2: Create Output 1 - Concise Transcript
 
 Requirements:
+- review spearker-turns one at a time
+- do not write scripts
 - keep transcript format and retained speaker order
 - preserve speaker attribution
 - remove non-substantive content
@@ -113,6 +114,7 @@ Requirements:
 - omit turns with no substantive information
 - keep substantive conversational sequencing where needed, e.g. answers immediately after questions
 - compress wording, conjunctions, and sentence structure
+- remove hedging words, qualifiers, discourse markers, or filler words - unless part of substantive content
 
 The Concise Transcript must:
 - not be a summary
@@ -186,7 +188,8 @@ Requirements:
 This is a full-fidelity reorganisation of the Concise Transcript, not a summary. Every substantive point that appears in the Concise Transcript must appear exactly once in the Structured Transcript Digest (or more than once if duplication is needed for traceability).
 
 ## Step 6: Final response
-After creating all three outputs, return each output in a fenced plain-text block labelled with the output name.
+After creating all three outputs, save them locally and provide downloads links to each.
+**Strictly never print the outputs directly to chat** If the user requests the outputs in chat, display in fenced plain-text code blocks instead.
 
 Then provide a brief chat response confirming that each output was produced along with:
 - a very brief summary of purpose
@@ -197,6 +200,7 @@ Also:
 - provide a simple clarification template
 - offer to step through the clarifications one by one, Q&A style with the user
 - suggest the user request the outputs as Word documents if satisfied
+- suggest the user requests the outputs displayed to chat in fenced plain-text code blocks if they are unable to download them.
 - do not provide any other suggestions, next steps, or information
 
 If clarifications are provided, regenerate all documents from scratch starting from Step 2 and apply those clarifications.
@@ -211,7 +215,6 @@ If the user asks to step through clarifications one by one:
 
 # Output Delivery
 - Produce each output as plain text content
-- Do not print outputs to chat unless in a fenced plain-text code block 
 - Do not reference source material or provide citations or hyperlinks of any kind
 
 # Output Standards

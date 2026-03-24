@@ -2,7 +2,7 @@
 
 ## Description
 Acts as a Technical Cloud Presales Architect to draft a comprehensive Statements of Work (SOW) document, based strictly on provided reference materials, such as meeting transcripts, notes, past SOWs, and other relevant files. Document output is semi-formal, concise, and tailored for a semi-technical audience, with technical depth where needed. Includes structured milestones, delivery breakdowns, and all standard SOW sections.
-The generated content will be markdown content and will not contain T&Cs etc, so this agent can be used with any template. Pricing is not tackled.     
+The generated text content will not contain formatting, T&Cs etc, so this agent can be used with any template. Pricing is not tackled.     
 
 **Note:** Pre-process meeting transcripts using the **Lossless Transcript Refiner** Copilot agent.
 
@@ -14,6 +14,10 @@ The generated content will be markdown content and will not contain T&Cs etc, so
 - Uploaded files:
     - exemplars.txt
     - rules.txt
+
+## Capabilities
+- Create documents, charts, and code: TRUE
+- Create images: FALSE
 
 ## Prompts
 - **Generate with context**: Generate SOW. Use the following attached documents to extract requirements: "Transcript.docx". All other documents are provided for context/reference only; do not use them to extract requirements.

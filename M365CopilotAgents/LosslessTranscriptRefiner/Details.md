@@ -10,5 +10,9 @@ Provided with a meeting transcript this agent will produce a Concise Transcript 
 - Only use specified sources: TRUE
 - Reference org chart and profile info: FALSE
 
+## Capabilities
+- Create documents, charts, and code: TRUE
+- Create images: FALSE
+
 ## Prompts
 - **Parse Transcript**: Analyse the provided meeting transcript.
