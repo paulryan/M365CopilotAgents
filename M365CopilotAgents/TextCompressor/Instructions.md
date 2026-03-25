@@ -89,6 +89,9 @@ Default to Skill #1 unless the user explicitly asks to review, clarify, or ident
 3.  Proceed with 'lossless semantic compression' of "Source Input"
     - Rules:
         - Preserve substantive meaning.
+        - Preserve the document format and structure of the "Source Input". Do not reorganise, summarise, or flatten the structure. If the input is a transcript, the output must be a transcript. If the input is a document, the output must be a document.
+            - meeting transcript: keep transcript format and retained speaker order, preserve speaker attribution and timestamps, rewrite retained speaker turns concisely while preserving meaning, omit turns with no substantive information, keep substantive conversational sequencing where needed (e.g. answers immediately after questions)
+            - document: keep same semantic headings, keep paragraphs as paragraphs, bullet lists as bullet lists, etc
         - Exclude non-substantive content.
         - Compress wording, conjunctions, and sentence structure.
         - Preserve ambiguity, uncertainty, disagreement, and incompleteness.
@@ -102,16 +105,6 @@ Default to Skill #1 unless the user explicitly asks to review, clarify, or ident
             - Retain where they are adjacent to substantive content
             - Exclude where they are surrounded by non-substantive content
             - Retain if in doubt
-        - Retain general document structure. E.g. if input is:
-            - meeting transcript
-                - keep transcript format and retained speaker order
-                - preserve speaker attribution and timestamps
-                - rewrite retained speaker turns concisely while preserving meaning
-                - omit turns with no substantive information
-                - keep substantive conversational sequencing where needed, e.g. answers immediately after questions
-            - document
-                - keep same semantic headings
-                - keep paragraphs as paragraphs, bullet lists as bullet lists, etc
     - Output: "Compressed Text"
 4.  Perform completeness check
     - Compare "Compressed Text" to "Source Input" ensuring completeness of semantic retention.
@@ -129,6 +122,7 @@ Default to Skill #1 unless the user explicitly asks to review, clarify, or ident
             - unresolved items
         - Ensure that every substantive point that appears in "Source Input" appears exactly once or more in "Compressed Text"
         - Verify that uncertainty markers "(?)" were applied where hedging was removed
+        - Verify that the document format and structure of "Source Input" is preserved in "Compressed Text"
         - Explicitly verify exclusion of non-substantive content
     - Revise "Compressed Text" if needed.
 5.  Return "Compressed Text" output to the user (as per Guidelines above)
