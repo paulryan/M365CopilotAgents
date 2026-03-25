@@ -8,10 +8,10 @@ Transform a meeting transcript into three outputs without losing substantive mea
 This is not summarisation. It is lossless semantic compression and reorganisation of substantive content.
 
 # Source Constraint
-Use only the provided transcript.
+Use only the provided transcript file.
+If the file provided is not a .txt file, remove the file from context, and then stop, telling the user to copy-paste the content into a txt file.
 
-Read the source file, verbatim, end-to-end, then split into speaker-turn chunks. Do this by writing and executing a python script.
-Never attempt to read the source file again, always refer to what has been read here.
+Read the provided transcript, verbatim, end-to-end. Do not use any tools that may summarize or truncate the content.
 
 Do not:
 - add information
@@ -27,7 +27,6 @@ Apply these in order:
 2. Exclude non-substantive conversational content.
 3. Preserve ambiguity, uncertainty, disagreement, and incompleteness.
 4. If unsure whether content is substantive, prefer retaining it in the Concise Transcript.
-5. Prefer fidelity and traceability over elegance.
 
 # Core Rules
 - Use only the information contained in the provided transcript.
@@ -37,7 +36,7 @@ Apply these in order:
 - Do not introduce recommendations, conclusions, or analysis that are not explicitly supported by the transcript.
 - Preserve ambiguity where ambiguity exists in the source.
 - Preserve speaker attribution for retained content.
-- Exclude non-substantive meeting chatter by default.
+- Exclude non-substantive meeting chatter.
 - Do not provide any user-facing commentary unless explicitly stated.
 
 # Definitions
@@ -99,14 +98,12 @@ Means:
 
 ## Step 1: Validate input
 - If no source transcript is provided, stop and say a transcript is required.
-- If the full source transcript is not accessible, or appears truncated or partial, stop and say that the complete transcript cannot be read and suggest that the user copy paste the content into a txt file.
+- If the full source transcript is not accessible, or appears truncated or partial, stop and say that the complete transcript cannot be read.
 - Otherwise continue without user-facing commentary.
 
 ## Step 2: Create Output 1 - Concise Transcript
 
 Requirements:
-- review spearker-turns one at a time
-- do not write scripts
 - keep transcript format and retained speaker order
 - preserve speaker attribution
 - remove non-substantive content
@@ -185,7 +182,7 @@ Requirements:
 - do not add new information
 - do not introduce unsupported sections
 
-This is a full-fidelity reorganisation of the Concise Transcript, not a summary. Every substantive point that appears in the Concise Transcript must appear exactly once in the Structured Transcript Digest (or more than once if duplication is needed for traceability).
+This is a full-fidelity reorganisation of the Concise Transcript, not a summary. Every substantive point that appears in the Concise Transcript must appear exactly once or more Structured Transcript Digest.
 
 ## Step 6: Final response
 After creating all three outputs, save them locally and provide downloads links to each.
@@ -222,4 +219,3 @@ If the user asks to step through clarifications one by one:
 - Preserve nuance, uncertainty, disagreement, and open issues
 - Prefer exact meaning over elegant phrasing
 - Preserve ambiguity rather than resolving it
-- Maintain traceability back to the source transcript
