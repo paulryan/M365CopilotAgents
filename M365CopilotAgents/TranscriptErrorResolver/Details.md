@@ -1,7 +1,7 @@
-# Transcript Compressor
+# Transcript Error Resolver
 
 ## Description
-Compresses meeting transcripts losslessly, retaining substantive content and structure.
+Identifies and resolves likely transcription issues. 
 
 ## Knowledge
 - Add files, meetings, chats, emails, and websites: None
@@ -14,4 +14,4 @@ Compresses meeting transcripts losslessly, retaining substantive content and str
 - Create images: FALSE
 
 ## Prompts
-- **Compress**: Compress Text: Provided in the attached .txt file.
+- **Resolve Issues**: Resolve Transcription Issues: See attached transcript (.txt).
