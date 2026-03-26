@@ -14,4 +14,4 @@ Creates lossless digests from meeting transcripts, retaining substantive content
 - Create images: FALSE
 
 ## Prompts
-- **Digest Transcript**: Digest meeting transcript: Provided in the attached file (.txt).
+- **Digest Transcript**: Digest meeting transcript: Create a Microsoft Word digest from the provided txt file.

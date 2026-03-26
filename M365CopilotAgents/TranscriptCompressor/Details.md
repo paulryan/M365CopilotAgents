@@ -14,4 +14,4 @@ Compresses meeting transcripts losslessly, retaining substantive content and str
 - Create images: FALSE
 
 ## Prompts
-- **Compress**: Compress Transcript: Provided in the attached file (.txt).
+- **Compress**: Compress Transcript: Create a Microsoft Word compressed transcript from the provided txt file.

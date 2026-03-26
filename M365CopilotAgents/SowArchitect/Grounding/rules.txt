@@ -10,18 +10,30 @@
 - Avoid implementation, configuration, or code‑level detail unless instructed
 - Use correct technical terminology without vendor bias
 
-## Structure (Canonical)
-1. Introduction / Project Scope
-2. Objectives
-3. High‑Level Solution Overview (Current State, Target State)
-4. Delivery Approach
-5. Scope of Work
-6. Timeline / Duration
-7. Project Management and Governance
+## Required SOW structure
+1. Project Objectives
+2. Pre-requisites & Future Considerations
+3. Current State
+4. Solution Description / Target State
+5. Risks
+6. Scope of Work (by milestone)
+7. Project Timeline
 8. Assumptions
 9. Exclusions
 10. Dependencies
-11. Milestones and Deliverables
+11. Success Criteria & Deliverables (by milestone)
+12. Estimated Effort
+
+## Milestones
+- A milestone is a logical project phase or delivery checkpoint.
+- It is a collection of one or more related delivery tasks.
+- For each milestone, include relevant:
+  - objective/purpose
+  - in-scope tasks/activities
+  - assumptions
+  - deliverables
+  - success criteria
+  - estimated effort
 
 ## Scoping Discipline
 - Clearly distinguish: in‑scope vs out‑of‑scope; commitments vs indicative statements

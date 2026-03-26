@@ -14,4 +14,4 @@ Identifies and resolves transcription issues.
 - Create images: FALSE
 
 ## Prompts
-- **Resolve Issues**: Resolve Transcription Issues: See attached transcript (.txt).
+- **Resolve Issues**: Resolve Transcription Issues: Produce resolved transcript as a Microsoft Word Document.
