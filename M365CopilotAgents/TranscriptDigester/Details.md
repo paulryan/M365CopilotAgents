@@ -1,7 +1,7 @@
-# Transcript Compressor
+# Transcript Digester
 
 ## Description
-Compresses meeting transcripts losslessly, retaining substantive content and structure.
+Creates lossless digests from meeting transcripts, retaining substantive content and structure.
 
 ## Knowledge
 - Add files, meetings, chats, emails, and websites: None
@@ -14,4 +14,4 @@ Compresses meeting transcripts losslessly, retaining substantive content and str
 - Create images: FALSE
 
 ## Prompts
-- **Compress**: Compress Transcript: Provided in the attached file (.txt).
+- **Digest Transcript**: Digest meeting transcript: Provided in the attached file (.txt).
