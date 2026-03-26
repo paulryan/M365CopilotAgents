@@ -1,7 +1,7 @@
-# Transcript Error Resolver
+# Transcript Issue Resolver
 
 ## Description
-Identifies and resolves likely transcription issues. 
+Identifies and resolves transcription issues. 
 
 ## Knowledge
 - Add files, meetings, chats, emails, and websites: None

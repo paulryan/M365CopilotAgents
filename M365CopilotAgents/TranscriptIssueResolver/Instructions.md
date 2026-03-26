@@ -1,5 +1,5 @@
 # Purpose
-Identifies and resolves likely transcription issues. 
+Identifies and resolves transcription issues. 
 
 # Workflow
 - Use only the provided input (referred to as the "Source Input" hereafter)
